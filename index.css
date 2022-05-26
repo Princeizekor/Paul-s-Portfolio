@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Commissioner', sans-serif;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.top {
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    position: sticky;
+    bottom: 30px;
+    left: 95%;
+    z-index: 1000000;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-thumb {
+    background: blue; 
+    border-radius: 10px;
+  }
+#navBar {
+    width: 100%;
+    padding: 20px 80px 20px 100px;
+    position: sticky;
+    top: 0%;
+    background: black;
+    z-index: 1;
+}
+.none {
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    display: none;
+}
+#navBar a {
+    text-decoration: none;
+}
+#navBar h1 {
+    color: white;
+}
+.o {
+    color: blue;
+}
+.list {
+    display: flex;
+}
+.list li {
+    padding: 0px 50px 10px 0px;
+    list-style-type: none;
+}
+.list li a:focus {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.list li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#header {
+    background-image: url('./images/download\ \(1\).png');
+    height: 500px;
+    max-width: 1440px;
+    margin: 0% auto;
+    text-align: center;
+    align-items: center;
+}
+.my-details {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.hello {
+    color: blue;
+}
+.name {
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bold;
+}
+.welcome {
+    color: blue;
+    font-size: 25px;
+}
+.first-border {
+    width: 150px;
+    color: grey;
+    font-size: 14px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-button {
+    width: 130px;
+    background: none;
+    height: 40px;
+    color: whitesmoke;
+    border: 3px solid blue;
+    border-radius: 4px;
+    margin-top: 1%;
+    transition: 1s all ease;
+}
+.first-button:hover {
+    background-color: whitesmoke;
+    color: blue;
+    transition: 1s all ease;
+}
+.icon {
+    margin-top: 150px;
+}
+.icon img {
+    margin-right: 2%;
+}
+.my-about {
+    color: blue;
+    font-size: 20px;
+}
+.my-about-intro {
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+#introduction {
+    max-width: 1440px;
+    height: auto;
+    margin: 0% auto;
+}
+.arrange {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: rgb(34, 33, 33);
+}
+.my-image-wrapper {
+    width: 100%;
+   
+}
+.intro-text {
+    font-size: 20px;
+    font-weight: 200;
+    color: whitesmoke;
+    margin: 0% auto;
+    width: 60%;
+    line-height: 30px;
+}
+.my-image-wrapper img {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+    margin-top: 4%;
+}
+.prof {
+    color: whitesmoke;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.profile-text {
+    font-size: 20px;
+    font-weight: 200;
+    color: whitesmoke;
+    margin: 0% auto;
+    width: 60%;
+    line-height: 30px;
+}
+.buttons {
+    display: flex;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second-button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background: whitesmoke;
+    border: 2px solid rgb(67, 67, 179);
+    border-radius: 5px;
+    transition: 1s all ease;
+    margin-right: 20%;
+}
+.second-button:hover {
+    background: rgb(67, 67, 179);
+    color: whitesmoke;
+    transition: 1s all ease;
+}
+.second-button a {
+    text-decoration: none;
+    color: black;
+}
+.third-button {
+    width: 150px;
+    height: 50px;
+    background: rgb(67, 67, 179);
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+.third-button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#education {
+    max-width: 1440px;
+    height: auto;
+    margin: 0% auto;
+}
+.edu-list {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: rgb(34, 33, 33);
+}
+.resume {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.credentals {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+}
+.details {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 1%;
+    font-weight: 100;
+}
+.edu {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.Ambrose {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+.img-wrap {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    margin-left: 8%;
+    background: black;
+    border-radius: 50px;
+}
+.school {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 5%;
+    line-height: 40px;
+}
+.school h2 {
+    font-size: 30px;
+}
+.school p {
+    font-size: 15px;
+}
+.code-camp {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-wrap2 {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-right: 8%;
+    padding: 14px;
+    background: black;
+    border-radius: 50px;
+}
+.res-cert {
+    text-align: right;
+    margin-left: 38%;
+    color: whitesmoke;
+    line-height: 40px;
+}
+.res-cert h2 {
+    font-size: 30px;
+}
+.res-cert p {
+    font-size: 15px;
+}
+#design {
+    background: blue;
+    width: 40px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+#design a {
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#portfolio {
+    max-width: 1440px;
+    height: auto;
+    margin: 0% auto;
+}
+.port {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.portfolio {
+    color: blue;
+}
+.work {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 500;
+}
+.first-work {
+    width: 100%;
+    display: flex;
+    padding: 30px 11% 30px 11%;
+    justify-content: space-between;
+    text-align: left;
+}
+.first-work-frame {
+    width: 40%;
+    padding: 25px 20px 25px 20px;
+    text-align: center;
+    background: rgb(34, 33, 33);
+}
+.first-work-image {
+    width: 90%;
+    object-fit: contain;
+}
+.first-work-text {
+    color: whitesmoke;
+    width: 50%;
+    line-height: 40px;
+}
+.land {
+    font-size: 25px;
+    font-weight: 500;
+}
+.van {
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+}
+.complete-exp {
+    font-size: 15px;
+    font-weight: 200;
+}
+#service {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    height: auto;
+    margin: 0% auto;
+    text-align: center;
+    padding: 100px 150px 100px 150px;
+    background-color: rgb(10, 10, 10);
+}
+.service {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.offer {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+}
+.skill {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+.card1-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card1:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card1 img {
+    margin-top: 5%;
+}
+.card1 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card1 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card1 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card2 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card2:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card2 img {
+    margin-top: 5%;
+}
+.card2 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card2 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card2 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card3 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card3:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card3 img {
+    margin-top: 5%;
+}
+.card3 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card3 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card3 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card2-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.card4 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card4:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card4 img {
+    margin-top: 5%;
+}
+.card4 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card4 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card4 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card5 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card5:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card5 img {
+    margin-top: 5%;
+}
+.card5 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card5 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card5 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card6 {
+    background: rgb(34, 33, 33);
+    width: 25%;
+    height: 300px;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.card6:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+.card6 img {
+    margin-top: 5%;
+}
+.card6 h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.card6 hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.card6 p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+#contact {
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    max-width: 1440px;
+    margin: 0% auto;
+    height: auto;
+}
+.contact {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hear {
+    font-size: 40px;
+    font-weight: 400;
+}
+.general {
+    color: silver;
+}
+.hire {
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0px 150px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.whatsapp {
+    width: 15%;
+}
+.whatsapp a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.whatsapp p {
+    margin-top: 2%;
+}
+.whatsapp img {
+    margin-bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+.email {
+    width: 15%;
+}
+.email a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.email p {
+    margin-top: 2%;
+}
+.call {
+    width: 15%;
+}
+.call a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.call p {
+    font-size: 15px;
+    margin-top: 2%;
+}
+.links {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 150px 50px 150px;
+}
+.icons {
+    width: 20%;
+}
+.icons img {
+    margin-right: 2%;
+}
+@media screen and (max-width: 767px) {
+    #navBar {
+        padding: 20px;
+        z-index: 1;
+    }
+    .top {
+        left: 90%;
+    }
+    .block {
+        display: none;
+    }
+    .list li {
+        padding-left: 30px;
+        font-size: 20px;
+        padding-right: 0;
+    }
+    #header {
+        width: 100%;
+        height: 100vh;
+    }
+    .my-details {
+        position: absolute;
+        top: 20%;
+    }
+    .icon {
+        margin-top: 50%;
+    }
+    #introduction {
+        width: 100%;
+    }
+    .arrange {
+        width: 90%;
+    }
+    .my-image-wrapper img {
+        width: 100%;
+        height: 500px;
+        object-fit: contain;
+        margin-top: 4%;
+    }
+    .intro-text {
+        width: 100%;
+        margin-top: 2%;
+    }
+    .profile-text {
+        width: 100%;
+    }
+    .edu-list {
+        padding: 20px;
+    }
+    .img-wrap {
+        margin-left: 0%;
+    }
+    .code-camp {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img-wrap2 {
+        margin-right: 0%;
+    }
+    .res-cert {
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+    .first-work {
+        flex-direction: column;
+        padding: 0px;
+        justify-content: none;
+        text-align: left;
+    }
+    .first-work-frame {
+        width: 90%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first-work-image {
+        width: 100%;
+    }
+    .first-work-text {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card1-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card1 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card2 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card3 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card4 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card5 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card6 {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .card2-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact {
+        font-size: 25px;
+    }
+    .hear {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .general {
+        font-size: 15px;
+    }
+    .hire {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 0px 150px 30px 150px;
+        flex-direction: column;
+        justify-content: none;
+    }
+    .whatsapp {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .email {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .call {
+        width: 90%;
+    }
+    .links {
+        justify-content: none;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .icons {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first-work {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width: 540px) {
+    #navBar {
+        padding: 20px;
+        z-index: 1;
+    }
+    .top {
+        left: 85%;
+    }
+    .block {
+        display: block;
+        display: flex;
+    }
+    .hamperbar {
+        position: absolute;
+        right: 5%;
+    }
+    .closehamper {
+        position: absolute;
+        right: 5%;
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    .lists {
+        position: absolute;
+        top: 55px;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        z-index: 1;
+        display: none;
+    }
+    .lists li {
+        padding: 15px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding-right: 0;
+        list-style-type: none;
+    }
+    .lists li a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .list li {
+        padding-left: 30px;
+        font-size: 20px;
+        padding-right: 0;
+    }
+    #header {
+        width: 100%;
+        height: 100vh;
+    }
+    .my-details {
+        position: absolute;
+        top: 10%;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .welcome {
+        font-size: 20px;
+    }
+    .icon {
+        margin-top: 50%;
+    }
+    #introduction {
+        width: 100%;
+    }
+    .arrange {
+        width: 90%;
+    }
+    .my-about-intro {
+        font-size: 20px;
+    }
+    .intro-text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .my-image-wrapper img {
+        margin: 0%;
+    }
+    .profile-text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .buttons {
+        margin: 0%;
+    }
+    .second-button {
+        margin-right: 10%;
+    }
+    .profile-text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .img-wrap {
+        margin-left: 0%;
+    }
+    .credentals {
+        font-size: 25px;
+    }
+    .school h2 {
+        font-size: 25px;
+    }
+    .res-cert h2 {
+        font-size: 25px;
+    }
+    .img-wrap2 {
+        margin-right: 0%;
+    }
+    .res-cert {
+        margin-left: 0%;
+        margin-right: 5%;
+    }
+    .work {
+        font-size: 25px;
+    }
+    #service {
+        padding: 20px 0px 20px 0px;
+    }
+    .offer {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .skill {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .card1-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card1 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card6 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2-wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+    #contact {
+        padding: 40px 20px 0px 20px;
+    }
+    .hear {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .general {
+        font-size: 10px;
+    }
+    .hire {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 0px;
+        justify-content: none;
+        flex-direction: column;
+    }
+    .whatsapp {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .email {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .call {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .links {
+        width: 100%;
+        justify-content: none;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .icons {
+        width: 100%;
+    }
+    .first-work {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .first-work-frame {
+        padding: 10px;
+        height: 150px;
+    }
+    .first-work-image {
+        width: 100%;
+        height: auto;
+    }
+    .offer {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .skill {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .card1-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card1 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card6 {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2-wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+    #contact {
+        padding: 40px 20px 0px 20px;
+    }
+    .hear {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .general {
+        font-size: 10px;
+    }
+    .hire {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 0px;
+    }
+    .whatsapp {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .email {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .call {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .links {
+        width: 100%;
+    }
+    .icons {
+        width: 50%;
+    }
+    .top {
+        margin-right: 5%;
+    }
+}
