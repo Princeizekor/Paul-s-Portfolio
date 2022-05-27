@@ -13,7 +13,7 @@ body {
     scroll-behavior: smooth;
 }
 .top {
-    background-color: blue;
+    background-color: rgb(128, 29, 221);
     color: whitesmoke;
     font-weight: bold;
     width: 40px;
@@ -30,7 +30,7 @@ body {
     width: 5px;
   }
 ::-webkit-scrollbar-thumb {
-    background: blue; 
+    background: rgb(128, 29, 221); 
     border-radius: 10px;
   }
 #navBar {
@@ -55,7 +55,7 @@ body {
     color: white;
 }
 .o {
-    color: blue;
+    color: rgb(128, 29, 221);
 }
 .list {
     display: flex;
@@ -65,8 +65,8 @@ body {
     list-style-type: none;
 }
 .list li a:focus {
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: rgb(128, 29, 221);
+    border-bottom: 2px solid rgb(128, 29, 221);
 }
 .list li a {
     text-decoration: none;
@@ -87,7 +87,7 @@ body {
     margin-top: 150px;
 }
 .hello {
-    color: blue;
+    color: rgb(128, 29, 221);
 }
 .name {
     color: whitesmoke;
@@ -95,7 +95,7 @@ body {
     font-weight: bold;
 }
 .welcome {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-size: 25px;
 }
 .first-border {
@@ -114,14 +114,14 @@ body {
     background: none;
     height: 40px;
     color: whitesmoke;
-    border: 3px solid blue;
+    border: 3px solid rgb(128, 29, 221);
     border-radius: 4px;
     margin-top: 1%;
     transition: 1s all ease;
 }
 .first-button:hover {
     background-color: whitesmoke;
-    color: blue;
+    color: rgb(128, 29, 221);
     transition: 1s all ease;
 }
 .icon {
@@ -131,7 +131,7 @@ body {
     margin-right: 2%;
 }
 .my-about {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-size: 20px;
 }
 .my-about-intro {
@@ -238,7 +238,7 @@ body {
     background: rgb(34, 33, 33);
 }
 .resume {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-size: 20px;
     font-weight: bold;
 }
@@ -254,7 +254,7 @@ body {
     font-weight: 100;
 }
 .edu {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-size: 20px;
     font-weight: bold;
     margin-top: 5%;
@@ -313,7 +313,7 @@ body {
     font-size: 15px;
 }
 #design {
-    background: blue;
+    background: rgb(128, 29, 221);
     width: 40px;
     height: 20px;
     border: none;
@@ -341,7 +341,7 @@ body {
     padding: 40px;
 }
 .portfolio {
-    color: blue;
+    color: rgb(128, 29, 221);
 }
 .work {
     color: whitesmoke;
@@ -394,7 +394,7 @@ body {
     background-color: rgb(10, 10, 10);
 }
 .service {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-size: 20px;
     font-weight: bold;
 }
@@ -608,7 +608,7 @@ body {
     height: auto;
 }
 .contact {
-    color: blue;
+    color: rgb(128, 29, 221);
     font-weight: bold;
     font-size: 20px;
 }
