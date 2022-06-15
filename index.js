@@ -2,6 +2,12 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0; 
   }
+  let spin = document.querySelector(".spinner")
+  setInterval(() => {
+    spin.style.display = "none"
+    
+}, 3000);
+
   const hamper = document.querySelector('.hamperbar');
   const Camp = document.querySelector('.closehamper');
   const list = document.querySelector('.lists');
