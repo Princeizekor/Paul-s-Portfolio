@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('./components/Navbar.css');
-@import url('./components/Home.css');
+@import url('./styles/Navbar.css');
+@import url('./styles/Home.css');
 * {
     margin: 0%;
     padding: 0%;

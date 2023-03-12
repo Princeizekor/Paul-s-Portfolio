@@ -58,7 +58,12 @@ window.onload = function() {
     document.body.appendChild(css);
 };
   return (
-      <div >
+      <div className='home'>
+            
+            
+            
+            
+            
             <h1>
         <a href="" class="typewrite" data-period="2000" data-type='["Hi, I am Paul Izekor.", "I am front-end developer.", "I Love Design.", "I Love to Develop." ]'>
               <span class="wrap"></span>

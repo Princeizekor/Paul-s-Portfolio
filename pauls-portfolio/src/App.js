@@ -1,18 +1,11 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './components/Home';
-import './components/Home.css'
-import './components/Navbar.css'
-import './components/About.css'
-import './components/Portfolio.css'
-import './components/Resume.css'
-import './components/Service.css'
-import './components/Contact.css'
-import Navbar from './Navbar';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Service from './components/Service';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Service from './pages/Service';
+import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
