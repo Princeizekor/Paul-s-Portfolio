@@ -3,11 +3,13 @@
 @tailwind utilities;
 @import url('./styles/Navbar.css');
 @import url('./styles/Home.css');
+@import url('./styles/cursor.scss');
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Commissioner', sans-serif;
 }
 
 html {

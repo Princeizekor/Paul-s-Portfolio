@@ -6,11 +6,13 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
+import BrowserCursor from './components/BrowserCursor';
 function App() {
   return (
     <Router>
      <div className="App">
         <Navbar />
+        <BrowserCursor />
         <div className="component">
           <Route exact path="/">
             <Home />
