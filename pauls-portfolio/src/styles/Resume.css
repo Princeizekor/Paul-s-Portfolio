@@ -1,0 +1,92 @@
+#resume {
+    max-width: 1440px;
+    height: 650px;
+    margin: 0% auto;
+    background: rgb(34, 33, 33);
+}
+.edu-list {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: rgb(34, 33, 33);
+}
+.resume {
+    color: rgb(128, 29, 221);
+    font-size: 20px;
+    font-weight: bold;
+}
+.credentals {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+}
+.details {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 1%;
+    font-weight: 100;
+}
+.edu {
+    color: rgb(128, 29, 221);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.Ambrose {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+.img-wrap {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    margin-left: 8%;
+    background: black;
+    border-radius: 50px;
+}
+.school {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 5%;
+    line-height: 40px;
+}
+.school h2 {
+    font-size: 30px;
+}
+.school p {
+    font-size: 15px;
+}
+.code-camp {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-wrap2 {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-right: 8%;
+    padding: 14px;
+    background: black;
+    border-radius: 50px;
+}
+.res-cert {
+    text-align: right;
+    margin-left: 38%;
+    color: whitesmoke;
+    line-height: 40px;
+}
+.res-cert h2 {
+    font-size: 30px;
+}
+.res-cert p {
+    font-size: 15px;
+}

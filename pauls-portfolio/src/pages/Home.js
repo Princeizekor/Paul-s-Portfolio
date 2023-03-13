@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import About from './About';
 
 function Home() {
   var TxtType = function (el, toRotate, period) {
