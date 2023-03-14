@@ -59,6 +59,33 @@ function Home() {
     // css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
   };
+  const icons = [
+    {
+      id: 1,
+      image: '/img/bx_bxl-facebook.png',
+      link: 'https://www.facebook.com/prince.izekor.5/'
+    },
+    {
+      id: 2,
+      image: '/img/cib_codesandbox.png',
+      link: 'https://www.facebook.com/prince.izekor.5/'
+    },
+    {
+      id: 3,
+      image: '/img/ant-design_github-outlined.png',
+      link: 'https://github.com/Princeizekor'
+    },
+    {
+      id: 4,
+      image: '/img/ant-design_twitter-outlined.png',
+      link: 'https://twitter.com/Paullizekor'
+    },
+    {
+      id: 5,
+      image: '/img/ant-design_behance-outlined.png',
+      link: 'https://www.facebook.com/prince.izekor.5/'
+    }
+  ]
   return (
     <div className='home'>
       <h2 className='hello'>Hello,</h2>
@@ -71,21 +98,13 @@ function Home() {
       <button className='more'>More about me</button>
 
       <div class="icons">
-        <Link to="https://www.facebook.com/prince.izekor.5/" target="_blank">
-        <img src="./img/bx_bxl-facebook.png" alt="Facebook icon"/>
+        {
+          icons.map((item) => 
+          <Link to={item.link} target="_blank">
+        <img src={item.image} alt="Facebook icon"/>
         </Link>
-
-        <img src="./img/cib_codesandbox.png" alt="Codeand icon"/>
-
-        <Link to="https://github.com/Princeizekor" target="_blank">
-        <img src="./img/ant-design_github-outlined.png" alt="Github icon"/>
-        </Link>
-
-        <Link to="https://twitter.com/Paullizekor" target="_blank">
-        <img src="./img/ant-design_twitter-outlined.png" alt="Twitter icon"/>
-        </Link>
-
-        <img src="./img/ant-design_behance-outlined.png" alt="Behance icon"/>
+          )
+        }
     </div>
     </div>
   )

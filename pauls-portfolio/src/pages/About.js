@@ -1,14 +1,14 @@
 import React from 'react'
 
 function About() {
-  const resume = 'https://drive.google.com/file/d/1BjQfiJP3b4vYNi0GClgENiy-AyxkOk5t/view?usp=sharing'
+  const resume = './cv/IZEKOR PAUL CV.docx'
   const img = './img/gegxy2.jpg'
   const about = `I'm a FRONTEND Developer who loves to make
   things look perfect. I create good and perfect Websites that are responsive
   on all screensizes (small, big and Extra large screen sizes) and that are
   scalable. Coding is a thing i love to do.`
   const profile = `I'm a student of Ambrose Alli University Ekpoma, I've very high intelligence
-  on TAILWINDCSS, HTML5, CSS3, JQUERY, VANILLA JAVASCRIPT, NODEJS, RESTFUL APIS,
+  on TAILWINDCSS, HTML5, CSS3, JQUERY, VANILLA JAVASCRIPT, TYPESCRIPT, NEXT JS, NODEJS, RESTFUL APIS,
   GITHUB, GITHUB ACTIONS and more.`
   return (
     <div id='about'>
@@ -23,7 +23,7 @@ function About() {
               <a href="#contact">HIRE ME</a>
             </button>
             <button class="cv-button">
-              <a href={resume} target="_blank">DOWNLOAD CV</a>
+              <a href={resume}>DOWNLOAD CV</a>
             </button>
           </div>
         </div>

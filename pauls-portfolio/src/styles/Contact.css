@@ -1,0 +1,76 @@
+#contact {
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    max-width: 1440px;
+    margin: 0% auto;
+    height: auto;
+}
+.contact {
+    color: rgb(128, 29, 221);
+    font-weight: bold;
+    font-size: 20px;
+}
+.hear {
+    font-size: 40px;
+    font-weight: 400;
+}
+.general {
+    color: silver;
+}
+.hire {
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0px 150px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.whatsapp {
+    width: 15%;
+}
+.whatsapp a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.whatsapp p {
+    margin-top: 2%;
+}
+.whatsapp img {
+    margin-bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+.email {
+    width: 15%;
+}
+.email a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.email p {
+    margin-top: 2%;
+}
+.call {
+    width: 15%;
+}
+.call a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.call p {
+    font-size: 15px;
+    margin-top: 2%;
+}
+.links {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 150px 50px 150px;
+}
+/* .icons {
+    width: 20%;
+}
+.icons img {
+    margin-right: 2%;
+} */
