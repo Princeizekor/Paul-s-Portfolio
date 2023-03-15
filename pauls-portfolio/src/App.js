@@ -36,6 +36,7 @@ function App() {
           <Service />
           <Contact />
         </div>
+        <button className='to-top'><a href="#">Top</a></button>
       </div>
     </Router>
   );

@@ -1,76 +1,63 @@
 #contact {
-    color: whitesmoke;
+    color: rgb(128, 29, 221);
     text-align: center;
     padding: 40px 0px 0px 0px;
     max-width: 1440px;
     margin: 0% auto;
     height: auto;
 }
-.contact {
-    color: rgb(128, 29, 221);
-    font-weight: bold;
-    font-size: 20px;
+#contact h1 {
+    margin: 0%;
 }
-.hear {
+
+.contact-title {
     font-size: 40px;
     font-weight: 400;
+    color: whitesmoke;
 }
-.general {
+.discuss {
     color: silver;
 }
 .hire {
     width: 100%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    padding: 0px 150px 30px 150px;
     display: flex;
+    align-items: center;
+    padding: 70px;
     justify-content: space-between;
 }
-.whatsapp {
-    width: 15%;
-}
-.whatsapp a {
+
+.contact-detail a {
     text-decoration: none;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.whatsapp p {
+
+.contact-detail p {
     margin-top: 2%;
 }
-.whatsapp img {
+
+.contact-detail img {
     margin-bottom: 2%;
     width: 50px;
     height: 50px;
 }
-.email {
-    width: 15%;
-}
-.email a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-.email p {
-    margin-top: 2%;
-}
-.call {
-    width: 15%;
-}
-.call a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-.call p {
-    font-size: 15px;
-    margin-top: 2%;
-}
+
 .links {
     width: 100%;
     justify-content: space-between;
     display: flex;
-    padding: 0px 150px 50px 150px;
+    padding: 70px;
 }
-/* .icons {
-    width: 20%;
+
+.name {
+    color: whitesmoke;
 }
-.icons img {
-    margin-right: 2%;
-} */
+.icons-footer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }

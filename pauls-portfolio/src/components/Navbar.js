@@ -6,16 +6,16 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <Link href="#">
+      <a href="#">
         <h1>P<span className="logo">IZ.</span></h1>
-      </Link>
+      </a>
       <ul className="list" style={open !== false ? {height: '100vh', left: 0} : {left: '-100%', overflow: 'hidden'}}>
-        <li><Link to="/" >Home</Link></li>
-        <li><Link to="#about" >About</Link></li>
-        <li><Link to="/resume" >Resume</Link></li>
-        <li><Link to="/portfolio" >Portfolio</Link></li>
-        <li><Link to="/service" >Service</Link></li>
-        <li><Link to="/contact" >Contact</Link></li>
+        <li><a href="#home" >Home</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#resume" >Resume</a></li>
+        <li><a href="#portfolio" >Portfolio</a></li>
+        <li><a href="#service" >Service</a></li>
+        <li><a href="#contact" >Contact</a></li>
       </ul>
       <img onClick={() => setOpen(!open)} src={open !== false ? "./img/icons8-delete-30.png" : "./img/hamburger.png"} alt="open menu" className="hamper" />
     </div>

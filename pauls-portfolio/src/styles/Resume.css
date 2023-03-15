@@ -36,3 +36,19 @@
     font-size: 17px;
     font-weight: bold;
 }
+
+.portfolio-cert {
+    background: rgb(128, 29, 221);
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.portfolio-cert a {
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}

@@ -87,7 +87,7 @@ function Home() {
     }
   ]
   return (
-    <div className='home'>
+    <div id='home'>
       <h2 className='hello'>Hello,</h2>
       <h1 href="" class="typewrite" data-period="2000" data-type='["I am Paul Izekor.", "I am front-end developer.", "I Love Design.", "I Love to Develop." ]'>
         <span class="wrap"></span>
@@ -95,7 +95,7 @@ function Home() {
 
       <h2 className='hello'>Welcome to my portfolio</h2>
       <button className='front-end-btn'>Frontend Developer</button>
-      <button className='more'>More about me</button>
+      <button className='more'><a href="#about">More about me</a></button>
 
       <div class="icons">
         {
