@@ -42,17 +42,21 @@
     border-radius: 10px;
     transition: 0.3s all ease;
 }
+
 .cards:hover {
     transform: translateY(5%);
     transition: 0.3s all ease;
 }
+
 .cards img {
     margin-top: 5%;
 }
+
 .cards h2 {
     font-size: 15px;
     margin-top: 5%;
 }
+
 .cards hr {
     margin-top: 5%;
 }
