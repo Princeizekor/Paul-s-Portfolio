@@ -86,3 +86,31 @@
   justify-content: space-between;
   width: 60%;
 }
+
+@media screen and (max-width: 767px) {
+  #home {
+    width: 100%;
+    margin: 0%;
+    height: 650px;
+    background-image: url('/public/img/download\ \(2\).png');
+  }
+
+  .typewrite {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 900;
+    margin: 0%;
+    height: 70px;
+    background-color: transparent;
+}
+
+  .hello {
+    color: rgb(128, 29, 221);
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .front-end-btn {
+    margin-bottom: 20px;
+}
+}

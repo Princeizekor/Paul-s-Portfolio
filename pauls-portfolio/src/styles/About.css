@@ -89,3 +89,28 @@
 .cv-button a {
     color: whitesmoke;
 }
+
+@media screen and (max-width: 767px) {
+    #about {
+        height: auto;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+    
+    .profile-details {
+        margin: 0%;
+    }
+    .profile-image {
+        margin-bottom: 30px;
+    }
+    .profile-text {
+        width: 100%;
+    }
+    .profile-buttons {
+        width: 100%;
+    }
+}

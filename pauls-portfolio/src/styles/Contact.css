@@ -56,8 +56,23 @@
     color: whitesmoke;
 }
 .icons-footer {
-    margin-top: 150px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    #contact {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .hire {
+        width: 100%;
+        padding: 50px;
+    }
+    
+    .links {
+        padding: 50px;
+    }
   }
