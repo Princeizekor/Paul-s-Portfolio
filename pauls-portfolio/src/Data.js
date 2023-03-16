@@ -72,58 +72,58 @@ export const storeProjects = [
       "A project with noframe works, An API website which shortens any link which is passed on to it and return the shortened links in different form. click image to see full website.",
   },
   {
-      id: 9,
-      title: "Countdown Timer Website",
-      img: "img/Screenshot (65).png",
-      tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
-      url: "https://princeizekor.github.io/Countdown/",
-      info:
-        "A project with noframe works, A countdown website challenge from FRONTEND MENTOR. click image to see full website.",
+    id: 9,
+    title: "Countdown Timer Website",
+    img: "img/Screenshot (65).png",
+    tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
+    url: "https://princeizekor.github.io/Countdown/",
+    info:
+      "A project with noframe works, A countdown website challenge from FRONTEND MENTOR. click image to see full website.",
   },
   {
-      id: 10,
-      title: "Api Tracker Map",
-      img: "img/Screenshot (67).png",
-      tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
-      url: "https://princeizekor.github.io/ipaddress/",
-      info:
-        "A project with noframe works, An API website which is able to get your ip location anywhere in the world, resposive and more. click image to see full website.",
+    id: 10,
+    title: "Api Tracker Map",
+    img: "img/Screenshot (67).png",
+    tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
+    url: "https://princeizekor.github.io/ipaddress/",
+    info:
+      "A project with noframe works, An API website which is able to get your ip location anywhere in the world, resposive and more. click image to see full website.",
   },
   {
-      id: 11,
-      title: "Github Finder App",
-      img: "img/Screenshot (101).png",
-      tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT | REACT",
-      url: "https://pauls-github-finder.netlify.app/",
-      info:
-        "A project built with REACT frame work, An API website which gets the details of any user on github. click image to see full website.",
+    id: 11,
+    title: "Github Finder App",
+    img: "img/Screenshot (101).png",
+    tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT | REACT",
+    url: "https://pauls-github-finder.netlify.app/",
+    info:
+      "A project built with REACT frame work, An API website which gets the details of any user on github. click image to see full website.",
   },
   {
-      id: 12,
-      title: "Rest Country Api",
-      img: "img/Screenshot (103).png",
-      tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
-      url: "https://princeizekor.github.io/CountriesAll/Countries.html",
-      info:
-        "A project with no frame works, An API website to discover Countries, A well built and responsive api website. click image to see full website.",
+    id: 12,
+    title: "Rest Country Api",
+    img: "img/Screenshot (103).png",
+    tools: "WEB DEVELOPMENT | HTML | CSS | JAVASCRIPT",
+    url: "https://princeizekor.github.io/CountriesAll/Countries.html",
+    info:
+      "A project with no frame works, An API website to discover Countries, A well built and responsive api website. click image to see full website.",
   },
   {
-      id: 13,
-      title: "Landing Page Website",
-      // img: "img/20220913_093335.png",
-      img: "img/Screenshot (51).png",
-      tools: "WEB DEVELOPMENT | VANILLA JAVASCRIPT",
-      url: "https://princeizekor.github.io/javascriptspace/Crowdfunding.html",
-      info:
-        "A project with no frame works no APIS calls, A good landing page. click image to see full website.",
+    id: 13,
+    title: "Landing Page Website",
+    // img: "img/20220913_093335.png",
+    img: "img/Screenshot (51).png",
+    tools: "WEB DEVELOPMENT | VANILLA JAVASCRIPT",
+    url: "https://princeizekor.github.io/javascriptspace/Crowdfunding.html",
+    info:
+      "A project with no frame works no APIS calls, A good landing page. click image to see full website.",
   },
   {
-      id: 14,
-      title: "Dashboard Website",
-      img: "img/Screenshot (53).png",
-      tools: "WEB DEVELOPMENT | PURE CSS",
-      url: "https://princeizekor.github.io/www.project.com/promote.html",
-      info:
-        "A project with no frame works no APIS calls, A good dashboard website. click image to see full website.",
+    id: 14,
+    title: "Dashboard Website",
+    img: "img/Screenshot (53).png",
+    tools: "WEB DEVELOPMENT | PURE CSS",
+    url: "https://princeizekor.github.io/www.project.com/promote.html",
+    info:
+      "A project with no frame works no APIS calls, A good dashboard website. click image to see full website.",
   },
 ];

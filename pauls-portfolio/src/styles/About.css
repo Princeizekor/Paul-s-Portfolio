@@ -12,6 +12,8 @@
 
 #about h1 {
     margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .about-box {
@@ -88,6 +90,54 @@
 }
 .cv-button a {
     color: whitesmoke;
+}
+
+@media screen and (max-width: 1023px) {
+    #about {
+        height: 650px;
+        width: 100%;
+        margin: 0%;
+    }
+    
+    .about-box {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .profile-buttons {
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-between;
+    }
+
+    .hire-button,
+    .cv-button {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        background: whitesmoke;
+        border: 2px solid rgb(67, 67, 179);
+        border-radius: 5px;
+        transition: 1s all ease;
+    }
+    .hire-button:hover {
+        background: rgb(67, 67, 179);
+        color: whitesmoke;
+        transition: 1s all ease;
+    }
+    .hire-button a,
+    .cv-button a {
+        text-decoration: none;
+        color: black;
+    }
+    .cv-button {
+        background: rgb(67, 67, 179);
+        border: 2px solid silver;
+    }
+    .cv-button a {
+        color: whitesmoke;
+    }
 }
 
 @media screen and (max-width: 767px) {

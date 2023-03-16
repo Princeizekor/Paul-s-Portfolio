@@ -70,7 +70,30 @@
     }
 
     .list {
-        display: none;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 80px;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s all ease;
+    }
+
+    .list li {
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: 10px;
+        padding-right: 0;
+        list-style-type: none;
+    }
+    .list li a {
+        text-decoration: none;
+        color: whitesmoke;
     }
 
     .hamper,

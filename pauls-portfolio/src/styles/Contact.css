@@ -8,6 +8,8 @@
 }
 #contact h1 {
     margin: 0%;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .contact-title {
@@ -74,5 +76,25 @@
     
     .links {
         padding: 50px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    #contact {
+        padding: 20px 0px 0px 0px;
+    }
+    
+    .contact-title {
+        font-size: 30px;
+    }
+
+    .hire {
+        width: 100%;
+        padding: 30px;
+        flex-direction: column;
+    }
+    
+    .contact-detail {
+        margin-top: 35px;
     }
   }

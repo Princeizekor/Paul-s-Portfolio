@@ -87,6 +87,31 @@
   width: 60%;
 }
 
+@media screen and (max-width: 1023px) {
+  .typewrite {
+    font-size: 45px;
+    height: 50px;
+}
+
+#home {
+  width: 100%;
+  margin: 0%;
+  height: 600px;
+}
+
+.front-end-btn {
+  font-size: 15px;
+}
+
+.more {
+margin-top: 2%;
+}
+
+.icons {
+margin-top: 100px;
+}
+}
+
 @media screen and (max-width: 767px) {
   #home {
     width: 100%;
@@ -97,20 +122,31 @@
 
   .typewrite {
     font-size: 40px;
-    color: whitesmoke;
-    font-weight: 900;
     margin: 0%;
-    height: 70px;
-    background-color: transparent;
+    height: 60px;
 }
-
-  .hello {
-    color: rgb(128, 29, 221);
-    font-weight: bold;
-    font-size: 35px;
-  }
 
   .front-end-btn {
     margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 540px) {
+  .typewrite {
+    font-size: 30px;
+    height: 45px;
+}
+
+#home {
+  height: 550px;
+}
+
+.hello {
+  font-size: 30px;
+}
+
+.icons {
+margin-top: 100px;
+width: 70%;
 }
 }

@@ -13,6 +13,8 @@
 #service h1 {
     color: rgb(128, 29, 221);
     margin: 0%;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .skill {
@@ -25,14 +27,14 @@
 .card-wrapper {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
-    gap: 55px;
+    padding: 20px;
+    gap: 40px;
 }
 
 .cards {
     background: rgb(34, 33, 33);
-    width: 350px;
-    height: 300px;
+    width: 30%;
+    height: 280px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -66,6 +68,28 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 1023px) {
+    #service {
+        width: 100%;
+        padding: 50px;
+        margin: 0%;
+    }
+    
+    .card-wrapper {
+        padding: 25px;
+        gap: 50px;
+    }
+    
+    .cards {
+        width: 45%;
+        padding: 20px;
+    }
+    
+    .cards img {
+        margin-top: 4%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #service {
         width: 100%;
@@ -73,14 +97,25 @@
     }
     
     .card-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 50px;
-        gap: 55px;
+        padding: 20px;
+        gap: 30px;
     }
     
     .cards {
-        width: 250px;
+        width: 45%;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card-wrapper {
+        flex-wrap: unset;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .cards {
+        width: 100%;
         height: 280px;
     }
 }

@@ -30,7 +30,7 @@ export const ServiceData = [
         title: 'LEARNING CULTURE',
         image: '/img/Group.png',
         detail: `I never settle for less. I'm always looking to learn new technologies and quickly too.`
-    },{
+    }, {
         id: 6,
         title: 'REACT JS',
         image: '/img/bi_window.png',

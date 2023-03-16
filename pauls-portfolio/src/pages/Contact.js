@@ -71,20 +71,20 @@ function Contact() {
         }
       </div>
       <div className="links">
-            <div className="icons-footer">
-            <div className="name">
-                &copy; Paul Izekor
-            </div>
-        {
-          icons.map((item) => 
-          <Link to={item.link} target="_blank">
-        <img src={item.image} alt="Facebook icon"/>
-        </Link>
-          )
-        }
-    </div>
+        <div className="icons-footer">
+          <div className="name">
+            &copy; Paul Izekor
+          </div>
+          {
+            icons.map((item) =>
+              <Link to={item.link} target="_blank">
+                <img src={item.image} alt="Facebook icon" />
+              </Link>
+            )
+          }
         </div>
-      
+      </div>
+
     </footer>
   )
 }
