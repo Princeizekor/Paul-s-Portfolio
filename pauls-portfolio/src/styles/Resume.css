@@ -54,3 +54,23 @@
     font-weight: bold;
     color: whitesmoke;
 }
+
+@media screen and (max-width: 540px) {
+    #resume {
+        padding: 20px;
+        margin: 0%;
+    }
+    
+    .credentals {
+        font-size: 25px;
+    }
+    
+    .edu {
+        margin-top: 4%;
+    }
+    
+    .portfolio-cert {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

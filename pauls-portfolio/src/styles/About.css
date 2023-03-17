@@ -59,7 +59,7 @@
     line-height: 30px;
 }
 .profile-buttons {
-    width: 50%;
+    width: 70%;
     display: flex;
     margin-top: 5%;
     justify-content: space-between;
@@ -149,6 +149,7 @@
 
     .about-box {
         flex-direction: column;
+        height: auto;
     }
     
     .profile-details {
@@ -162,5 +163,37 @@
     }
     .profile-buttons {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-box {
+        text-align: center;
+    }
+    .profile-text {
+        font-size: 15px;
+    }
+
+    .profile-buttons {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .hire-button,
+    .cv-button {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .cv-button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile-image {
+        border-radius: 15px;
     }
 }
