@@ -110,7 +110,6 @@ export const storeProjects = [
   {
     id: 13,
     title: "Landing Page Website",
-    // img: "img/20220913_093335.png",
     img: "img/Screenshot (51).png",
     tools: "WEB DEVELOPMENT | VANILLA JAVASCRIPT",
     url: "https://princeizekor.github.io/javascriptspace/Crowdfunding.html",
