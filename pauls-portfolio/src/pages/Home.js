@@ -38,11 +38,11 @@ function Home() {
       <button className='front-end-btn'>Frontend Developer</button>
       <button className='more'><a href="#about">More about me</a></button>
 
-      <div class="icons">
+      <div className="icons">
         {
-          icons.map((item) => 
-          <a href={item.link} target="_blank">
-        <img src={item.image} alt="Social icon"/>
+          icons.map((item, i) => 
+          <a href={item.link} target="_blank" key={i}>
+        <img src={item.image} key={i} alt="Social icon"/>
         </a>
           )
         }

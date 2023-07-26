@@ -9,14 +9,14 @@ function Portfolio() {
       {
         PortfolioData.map((item, i) =>
           <div key={i} className='jobs'>
-            <div class="job-img-wrapper">
-              <img class="job-image" src={item.img} alt="website image" />
+            <div className="job-img-wrapper">
+              <img className="job-image" src={item.img} alt="website image" />
             </div>
-            <div class="job-text">
+            <div className="job-text">
               <h2 className="page-name">{item.name}</h2>
-              <h2 class="page-tools">{item.skill}</h2>
-              <p class="page-detail">{item.detail}</p>
-              <button class="hire-button">
+              <h2 className="page-tools">{item.skill}</h2>
+              <p className="page-detail">{item.detail}</p>
+              <button className="hire-button">
                 <a href={item.link} target='_blank'>VIEW PAGE</a>
               </button>
             </div>

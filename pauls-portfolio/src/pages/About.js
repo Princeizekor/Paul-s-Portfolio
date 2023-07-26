@@ -16,13 +16,13 @@ function About() {
       <div className='about-box'>
         <img src={img} alt="my profile image" className='profile-image' />
         <div className='profile-details'>
-          <p class="about-intro-text">{about}</p>
+          <p className="about-intro-text">{about}</p>
           <p className='profile-intro-text'>{profile}</p>
-          <div class="profile-buttons">
-            <button class="hire-button">
+          <div className="profile-buttons">
+            <button className="hire-button">
               <a href="#contact">HIRE ME</a>
             </button>
-            <button class="cv-button">
+            <button className="cv-button">
               <a href={resume}>DOWNLOAD CV</a>
             </button>
           </div>
