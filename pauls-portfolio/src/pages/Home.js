@@ -41,9 +41,9 @@ function Home() {
       <div class="icons">
         {
           icons.map((item) => 
-          <Link to={item.link} target="_blank">
-        <img src={item.image} alt="Facebook icon"/>
-        </Link>
+          <a href={item.link} target="_blank">
+        <img src={item.image} alt="Social icon"/>
+        </a>
           )
         }
     </div>

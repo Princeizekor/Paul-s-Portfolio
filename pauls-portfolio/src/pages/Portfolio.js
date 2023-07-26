@@ -23,6 +23,7 @@ function Portfolio() {
           </div>
         )
       }
+      <h2 style={{ color: 'whitesmoke' }}><a href="https://github.com/Princeizekor" style={{ color: 'rgb(128, 29, 221)' }}>And many more</a> click on the link to visit my github repository </h2>
     </div>
   )
 }

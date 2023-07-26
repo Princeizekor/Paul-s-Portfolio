@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding: 20px;
+    padding: 0px 50px;
     position: sticky;
     top: 0%;
     background: black;
@@ -50,6 +50,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .navbar {
+        padding: 20px;
+    }
 
     .navbar h1 {
         font-size: 30px;
@@ -65,10 +68,6 @@
 }
 
 @media screen and (max-width: 540px) {
-    .navbar {
-        padding: 20px;
-    }
-
     .list {
         position: absolute;
         height: 100vh;
