@@ -1,6 +1,6 @@
 import React from 'react'
-import Typewriter from '../Typewriter';
 import styled from 'styled-components'
+import Type from '../Type'
 
 function Home() {
   const icons = [
@@ -33,7 +33,7 @@ function Home() {
   return (
     <Wrapper id='home'>
       <h2 className='hello'>Hello,</h2>
-      <Typewriter />
+      <Type />
       <h2 className='hello'>Welcome to my portfolio</h2>
       <button className='front-end-btn'>Frontend Developer</button>
       <button className='more'><a href="#about">More about me</a></button>
@@ -102,6 +102,13 @@ justify-content: space-between;
 width: 60%;
 }
 
+.Typewriter__wrapper, .Typewriter__cursor {
+  font-size: 3em!important;
+  font-weight: 800!important;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+}
+
 @media (max-width: 1023px) {
 width: 100%;
 margin: 0%;
@@ -141,6 +148,17 @@ font-size: 30px;
 .icons {
 margin-top: 100px;
 width: 70%;
+}
+.Typewriter__wrapper, .Typewriter__cursor {
+  font-size: 40px!important;
+}
+}
+@media (max-width: 540px) {
+  .Typewriter__wrapper, .Typewriter__cursor {
+    font-size: 25px!important;
+}
+.hello {
+  text-align: center;
 }
 }
 `

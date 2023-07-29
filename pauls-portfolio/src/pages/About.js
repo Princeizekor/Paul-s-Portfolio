@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function About() {
   // const resume = './cv/IZEKOR PAUL CV.docx'
   const resume = './cv/PaulIzekor cv.pdf'
-  const img = './img/gegxy2.jpg'
+  const img = './img/profile.jpg'
   const about = `I'm a FRONTEND Developer who loves to make
   things look perfect. I create good and perfect Websites that are responsive
   on all screensizes (small, big and Extra large screen sizes) and that are
