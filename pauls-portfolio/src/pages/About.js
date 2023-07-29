@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 function About() {
-  const resume = './cv/IZEKOR PAUL CV.docx'
+  // const resume = './cv/IZEKOR PAUL CV.docx'
+  const resume = './cv/PaulIzekor cv.pdf'
   const img = './img/gegxy2.jpg'
   const about = `I'm a FRONTEND Developer who loves to make
   things look perfect. I create good and perfect Websites that are responsive
@@ -24,7 +25,7 @@ function About() {
               <a href="#contact">HIRE ME</a>
             </button>
             <button className="cv-button">
-              <a href={resume}>DOWNLOAD CV</a>
+              <a href={resume} target='_blank'>DOWNLOAD CV</a>
             </button>
           </div>
         </div>
