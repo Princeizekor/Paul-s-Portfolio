@@ -74,16 +74,18 @@ function Contact() {
       <hr style={{backgroundColor: 'black', width: '90%', margin: '0% auto'}}/>
       <div className="links">
         <div className="icons-footer">
-          <div className="name">
+          <p className="name">
             &copy; Paul Izekor
-          </div>
+          </p>
+          <div className="handles">
           {
             icons.map((item) =>
-              <Link to={item.link} target="_blank">
-                <img src={item.image} alt="Facebook icon" />
-              </Link>
+              <a href={item.link} target="_blank">
+                <img src={item.image} alt="Social icon" />
+              </a>
             )
           }
+          </div>
         </div>
       </div>
 
@@ -149,15 +151,26 @@ const Wrapper = styled.footer`
 .name {
   color: whitesmoke;
 }
+
 .icons-footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  .handles {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px) {
       width: 100%;
       margin: 0%;
+
+      .discuss {
+        width: 80%;
+        margin: 0% auto;
+      }
 
   .hire {
       width: 100%;
@@ -166,6 +179,15 @@ const Wrapper = styled.footer`
   
   .links {
       padding: 50px;
+  }
+  .icons-footer {
+    flex-direction: column-reverse;
+    .handles {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -180,6 +202,10 @@ const Wrapper = styled.footer`
       width: 100%;
       padding: 30px;
       flex-direction: column;
+  }
+
+  .links {
+    padding: 30px;
   }
   
   .contact-detail {

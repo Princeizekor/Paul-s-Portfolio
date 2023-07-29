@@ -127,6 +127,7 @@ const Wrapper = styled.div`
         flex-wrap: unset;
         flex-direction: column;
         gap: 30px;
+        padding: 0;
     }
     
     .cards {
