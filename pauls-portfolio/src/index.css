@@ -1,15 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('./styles/Navbar.css');
-@import url('./styles/Home.css');
 @import url('./styles/cursor.scss');
-@import url('./styles/About.css');
-@import url('./styles/Resume.css');
-@import url('./styles/Spinner.css');
-@import url('./styles/Portfolio.css');
-@import url('./styles/Service.css');
-@import url('./styles/Contact.css');
 * {
     margin: 0%;
     padding: 0%;
@@ -35,6 +27,19 @@ body {
     background: rgb(128, 29, 221); 
     border-radius: 10px;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .component {
+    animation: fadeIn 1s ease-in-out;
+  }
   
 .to-top {
     background-color: rgb(128, 29, 221);
@@ -53,4 +58,66 @@ body {
     position: sticky;
     bottom: 30px;
     z-index: 1000000;
+}
+
+.typewrite h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+  .flex {
+      max-width: 70%;
+      margin: 0% auto;
+  }
+  
+  .typewrite {
+      font-size: 70px;
+      color: whitesmoke;
+      font-weight: 900;
+      margin: 0%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70px;
+      background-color: transparent;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .typewrite {
+        font-size: 45px;
+        height: 50px;
+      }
+  }
+
+  @media screen and (max-width: 767px) {
+  .typewrite {
+    font-size: 40px;
+    margin: 0%;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+    .typewrite {
+      font-size: 30px;
+      height: 45px;
+    }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Typewriter from '../Typewriter';
+import styled from 'styled-components'
 
 function Home() {
   const icons = [
@@ -31,7 +31,7 @@ function Home() {
     }
   ]
   return (
-    <div id='home'>
+    <Wrapper id='home'>
       <h2 className='hello'>Hello,</h2>
       <Typewriter />
       <h2 className='hello'>Welcome to my portfolio</h2>
@@ -40,15 +40,109 @@ function Home() {
 
       <div className="icons">
         {
-          icons.map((item, i) => 
-          <a href={item.link} target="_blank" key={i}>
-        <img src={item.image} key={i} alt="Social icon"/>
-        </a>
+          icons.map((item, i) =>
+            <a href={item.link} target="_blank" key={i}>
+              <img src={item.image} key={i} alt="Social icon" />
+            </a>
           )
         }
-    </div>
-    </div>
+      </div>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.div`
+  max-width: 1440px;
+  margin: 0% auto;
+  height: 650px;
+  background-image: url('/img/download (1).png');
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+.hello {
+  color: rgb(128, 29, 221);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.front-end-btn {
+  width: 150px;
+  color: grey;
+  font-size: 14px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  height: 30px;
+  margin-top: 2%;
+}
+
+.more {
+width: 130px;
+background: transparent;
+height: 40px;
+color: whitesmoke;
+border: 3px solid rgb(128, 29, 221);
+border-radius: 4px;
+margin-top: 1%;
+transition: 1s all ease;
+}
+
+.more:hover {
+background-color: whitesmoke;
+color: rgb(128, 29, 221);
+transition: 1s all ease;
+}
+
+.icons {
+margin-top: 150px;
+display: flex;
+justify-content: space-between;
+width: 60%;
+}
+
+@media (max-width: 1023px) {
+width: 100%;
+margin: 0%;
+height: 600px;
+
+.front-end-btn {
+font-size: 15px;
+}
+
+.more {
+margin-top: 2%;
+}
+
+.icons {
+margin-top: 100px;
+}
+}
+
+@media (max-width: 767px) {
+  width: 100%;
+  margin: 0%;
+  height: 650px;
+  background-image: url('/img/download (2).png');
+
+.front-end-btn {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 540px) {
+height: 550px;
+
+.hello {
+font-size: 30px;
+}
+
+.icons {
+margin-top: 100px;
+width: 70%;
+}
+}
+`
 
 export default Home
