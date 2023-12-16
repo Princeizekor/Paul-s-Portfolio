@@ -21,12 +21,12 @@ function About() {
           <p className="about-intro-text">{about}</p>
           <p className='profile-intro-text'>{profile}</p>
           <div className="profile-buttons">
-            <button className="hire-button">
-              <a href="#contact">HIRE ME</a>
-            </button>
-            <button className="cv-button">
-              <a href={resume} target='_blank'>DOWNLOAD CV</a>
-            </button>
+          <a href="#contact"><button className="hire-button">
+              HIRE ME
+            </button></a>
+            <a href={resume} target='_blank'><button className="cv-button">
+              DOWNLOAD CV
+            </button></a>
           </div>
         </div>
       </div>
@@ -108,10 +108,7 @@ h1 {
   border: 2px solid rgb(67, 67, 179);
   border-radius: 5px;
   transition: 1s all ease;
-  a {
-    text-decoration: none;
     color: black;
-  }
 }
 .hire-button:hover {
   background: rgb(67, 67, 179);

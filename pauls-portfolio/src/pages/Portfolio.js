@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <Wrapper id='portfolio'>
       <h1>Portfolio</h1>
-      <h2 className='work'>Check out some of my work</h2>
+      <h2 className='work'>Check Out Some Of My Work</h2>
       {
         PortfolioData.map((item, i) =>
           <div key={i} className='jobs'>
@@ -17,9 +17,9 @@ function Portfolio() {
               <h2 className="page-name">{item.name}</h2>
               <h2 className="page-tools">{item.skill}</h2>
               <p className="page-detail">{item.detail}</p>
-              <button className="page-button">
-                <a href={item.link} target='_blank'>VIEW PAGE</a>
-              </button>
+              <a href={item.link} target='_blank'><button className="page-button">
+                VIEW PAGE
+              </button></a>
             </div>
           </div>
         )

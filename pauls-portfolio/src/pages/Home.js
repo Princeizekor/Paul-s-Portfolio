@@ -34,9 +34,9 @@ function Home() {
     <Wrapper id='home'>
       <h2 className='hello'>Hello,</h2>
       <Type />
-      <h2 className='hello'>Welcome to my portfolio</h2>
-      <button className='front-end-btn'>Frontend Developer</button>
-      <button className='more'><a href="#about">More about me</a></button>
+      <h2 className='hello'>Welcome To My Portfolio</h2>
+      <button className='front-end-btn'>FRONTEND DEVELOPER <img src='/img/verified.png' /></button>
+      <a href="#about"><button className='more'>More About Me</button></a>
 
       <div className="icons">
         {
@@ -69,23 +69,30 @@ const Wrapper = styled.div`
 }
 
 .front-end-btn {
-  width: 150px;
+  width: 220px;
   color: grey;
   font-size: 14px;
+  border: none;
+  outline: none;
   border-left: 2px solid white;
   border-right: 2px solid white;
   height: 30px;
   margin-top: 2%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
 }
 
 .more {
 width: 130px;
+color: whitesmoke;
 background: transparent;
 height: 40px;
-color: whitesmoke;
 border: 3px solid rgb(128, 29, 221);
 border-radius: 4px;
-margin-top: 1%;
+margin-top: 30px;
 transition: 1s all ease;
 }
 
