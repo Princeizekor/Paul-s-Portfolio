@@ -122,7 +122,7 @@ margin: 0%;
 height: 600px;
 
 .front-end-btn {
-font-size: 15px;
+font-size: 14px;
 }
 
 .more {
